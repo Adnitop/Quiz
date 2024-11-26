@@ -12,7 +12,7 @@ QUIZ questions[]= {{"What is the past tense of GO?",{ "Come", "Went", "Gone", "C
 
  int i,j; int score=0; int percentage=0;
  for(i=0; i<5; i++){
-    cout<<i+1<< questions[i].Question<<endl;
+    cout<<"QUESTION"<<i+1<<endl<<questions[i].Question<<endl;
     for (j=0; j<4; j++){
         cout << j+1 << questions[i].Option[j]<<endl;
 
