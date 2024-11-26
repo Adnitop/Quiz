@@ -17,7 +17,7 @@ QUIZ questions[]= {{"What is the past tense of GO?",{ "Come", "Went", "Gone", "C
         cout << j+1 << questions[i].Option[j]<<endl;
 
 }
-cout<<"CHOOSE THE CORRECT ANSWER:"<<"";
+cout<<"CHOOSE THE CORRECT OPTION (1-4):"<<"";
     int answer;
 
     cin>>answer;
@@ -28,7 +28,7 @@ cout<<"CHOOSE THE CORRECT ANSWER:"<<"";
     }
     else {
         cout << "wrong"<<endl;
-        cout<<" ";
+        cout<<" "<<endl;
     }
 
 
@@ -44,8 +44,3 @@ else {
 }
 
 }
-
-
-
-
-
